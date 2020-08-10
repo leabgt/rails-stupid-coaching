@@ -1,0 +1,38 @@
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+  font-family: Arial;
+}
+
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+.coach-answer {
+  border-left: 4px solid lightgrey;
+  padding-left: 10px;
+  background-color: rgba(253, 249, 82, 0.3);
+  margin-top: 15px;
+  margin-bottom: 10px;
+  line-height: 2;
+}
+
+.question-ask {
+  border-left: 4px solid lightgrey;
+  padding-left: 10px;
+  line-height: 2;
+}
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
